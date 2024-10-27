@@ -1,0 +1,192 @@
+/* Basic navbar styling */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for professional look */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar-head {
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navbar links styling */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex: 1;
+  transition: height 0.4s ease, opacity 0.4s ease;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+/* Regular link styling */
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #f39c12;
+}
+
+/* Welcome text styling */
+.navbar-user {
+  color: #f39c12;
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Style for Login and Register buttons */
+.navbar-links .btn-login, .navbar-links .btn-register {
+  padding: 5px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Login button */
+.navbar-links .btn-login {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-links .btn-login:hover {
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Register button */
+.navbar-links .btn-register {
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links .btn-register:hover {
+  background-color: #0056b3;
+}
+
+/* Logout button styling */
+.navbar-btn {
+  padding: 5px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-btn:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Toggle Button Styling */
+.navbar-toggle {
+  display: none; /* Hidden by default on desktop */
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar-toggle {
+    display: block; /* Show toggle button on mobile */
+    
+  }
+
+  .navbar-head{
+    margin-right: 50px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    align-items: center; /* Center align links in mobile view */
+  }
+
+  .navbar-links.open {
+    max-height: 450px; /* Adjust as necessary for content */
+    opacity: 1;
+    padding: 10px 0;
+  }
+
+  .navbar-links li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  /* Center-align Login and Register buttons in mobile view */
+  .navbar-links .btn-login, .navbar-links .btn-register {
+    width: 90%; /* Full-width buttons for mobile view */
+    margin: 5px 0;
+  }
+
+  /* Adjust Welcome Text in mobile */
+  .navbar-user {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #f39c12;
+    text-align: center;
+  }
+
+  /* Center-align Logout button and make it full width on mobile */
+  .navbar-btn {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+  }
+}

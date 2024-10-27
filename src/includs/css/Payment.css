@@ -1,0 +1,80 @@
+/* Container styling */
+.payment-form {
+    max-width: 400px;
+    margin: 100px auto 17%; /* Center vertically with additional space */
+    padding: 30px;
+    border: 1px solid #9b9b9b;
+    border-radius: 10px;
+    background-color: #dbdada;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .payment-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .payment-form li{
+    color: #110280;
+  }
+  
+  /* Button styling */
+  .payment-form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px; /* Rounded button style */
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .payment-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  /* Disabled button styling */
+  .payment-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  /* Payment message styling */
+  .payment-message {
+    color: green;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  /* Input field styling */
+  .payment-form input,
+  .payment-form .StripeElement {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  /* Focus state for input fields */
+  .payment-form input:focus,
+  .payment-form .StripeElement--focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2); /* Soft focus glow */
+  }

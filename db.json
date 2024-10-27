@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "12345678",
+      "receipts": [
+        {
+          "date": "2024-10-27T21:45:59.239Z",
+          "amount": 377.23,
+          "items": [
+            {
+              "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+              "price": 109.95,
+              "quantity": 1
+            },
+            {
+              "title": "Mens Casual Premium Slim Fit T-Shirts ",
+              "price": 22.3,
+              "quantity": 1
+            },
+            {
+              "title": "Mens Casual Slim Fit",
+              "price": 15.99,
+              "quantity": 1
+            },
+            {
+              "title": "Mens Cotton Jacket",
+              "price": 55.99,
+              "quantity": 1
+            },
+            {
+              "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+              "price": 64,
+              "quantity": 1
+            },
+            {
+              "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+              "price": 109,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "date": "2024-10-27T22:11:27.325Z",
+          "amount": 1830.19,
+          "items": [
+            {
+              "title": "Mens Casual Premium Slim Fit T-Shirts ",
+              "price": 22.3,
+              "quantity": 4
+            },
+            {
+              "title": "Mens Cotton Jacket",
+              "price": 55.99,
+              "quantity": 1
+            },
+            {
+              "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+              "price": 109,
+              "quantity": 1
+            },
+            {
+              "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+              "price": 114,
+              "quantity": 1
+            },
+            {
+              "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+              "price": 599,
+              "quantity": 1
+            },
+            {
+              "title": "Solid Gold Petite Micropave ",
+              "price": 168,
+              "quantity": 1
+            },
+            {
+              "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+              "price": 695,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "date": "2024-10-27T22:11:53.915Z",
+          "amount": 114,
+          "items": [
+            {
+              "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+              "price": 114,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "date": "2024-10-27T22:12:49.799Z",
+          "amount": 94.28,
+          "items": [
+            {
+              "title": "Mens Casual Premium Slim Fit T-Shirts ",
+              "price": 22.3,
+              "quantity": 1
+            },
+            {
+              "title": "Mens Cotton Jacket",
+              "price": 55.99,
+              "quantity": 1
+            },
+            {
+              "title": "Mens Casual Slim Fit",
+              "price": 15.99,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Khaled",
+      "email": "khaled@gmail.com",
+      "password": "12345678",
+      "receipts": []
+    },
+    {
+      "id": "3",
+      "name": "Ali",
+      "email": "ali@gmail.com",
+      "password": "12345678",
+      "receipts": []
+    },
+    {
+      "id": "4",
+      "name": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "12345678",
+      "receipts": []
+    },
+    {
+      "id": "5388",
+      "name": "Ahmed Behery",
+      "email": "ahmed2@gmail.com",
+      "password": "123456789",
+      "receipts": []
+    },
+    {
+      "id": "bbc0",
+      "name": "samar",
+      "email": "samar@gmail.com",
+      "password": "12345678",
+      "receipts": [
+        {
+          "date": "2024-10-27T21:46:46.593Z",
+          "amount": 450.25,
+          "items": [
+            {
+              "title": "Mens Casual Premium Slim Fit T-Shirts ",
+              "price": 22.3,
+              "quantity": 1
+            },
+            {
+              "title": "Mens Cotton Jacket",
+              "price": 55.99,
+              "quantity": 3
+            },
+            {
+              "title": "Mens Casual Slim Fit",
+              "price": 15.99,
+              "quantity": 2
+            },
+            {
+              "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+              "price": 114,
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "date": "2024-10-27T21:55:42.410Z",
+          "amount": 3064.12,
+          "items": [
+            {
+              "title": "Mens Casual Premium Slim Fit T-Shirts ",
+              "price": 22.3,
+              "quantity": 4
+            },
+            {
+              "title": "Mens Casual Slim Fit",
+              "price": 15.99,
+              "quantity": 4
+            },
+            {
+              "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+              "price": 109,
+              "quantity": 3
+            },
+            {
+              "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+              "price": 114,
+              "quantity": 2
+            },
+            {
+              "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+              "price": 999.99,
+              "quantity": 2
+            },
+            {
+              "title": "Solid Gold Petite Micropave ",
+              "price": 168,
+              "quantity": 2
+            },
+            {
+              "title": "White Gold Plated Princess",
+              "price": 9.99,
+              "quantity": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+/* Home Page Styling */
+
+.home {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out; /* Animation عند التحميل */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #666;
+  animation: slideInFromRight 1s ease-in-out;
+}
+
+/* Animation for fading in elements */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation for sliding elements from left and right */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Banner Section */
+.home-banner {
+  margin: 20px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.banner-image {
+  width: 100%;
+  max-height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.banner-image:hover {
+  transform: scale(1.05); /* تكبير الصورة عند المرور */
+}
+
+/* About Section */
+.about-section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #333;
+  animation: slideInFromLeft 1.2s ease-in-out;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Featured Products Section */
+.featured-products-section {
+  margin: 40px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.featured-products-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Product Card Styling */
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  position: relative;
+  animation: fadeInUp 1.2s ease-in-out; /* Animation for product cards */
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation for cards to fade in from below */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.product-img {
+  height: 200px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card p {
+  color: #888;
+}
+
+.product-card button {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 2%;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #c9302c;
+}
+
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.carousel-slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.prev-btn{
+  position: absolute;
+  top: 50%;
+  right: 80%;
+  width: 3%;
+  transform: translateY(-50%);
+  background-color: rgba(51, 51, 51, 0.7);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.next-btn {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  width: 3%;
+  transform: translateY(-50%);
+  background-color: rgba(51, 51, 51, 0.7);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: rgba(51, 51, 51, 0.9);
+}
+
+/* Contact Section */
+.contact-section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-section .btn-primary {
+  transition: background-color 0.3s;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #333;
+}
+
+/* Partners Section */
+.partners-section {
+  margin: 40px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.partners-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.partner-logos img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.partner-logos img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+/* Responsive Design */
+
+
+@media (max-width: 1600px) {
+  .prev-btn,
+  .next-btn{
+    width: 50px;
+  }
+}
+
+
+@media (max-width: 768px) {
+ 
+
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p,
+  .about-section p,
+  .contact-section p {
+    font-size: 1rem;
+  }
+
+
+  .about-section,
+  .contact-section {
+    padding: 15px;
+  }
+
+  .featured-products-section .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .partner-logos img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-section h2,
+  .featured-products-section h2,
+  .contact-section h2,
+  .partners-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-title {
+    font-size: 1rem;
+  }
+
+  .product-img {
+    max-height: 150px;
+  }
+
+  .partner-logos img {
+    width: 60px;
+    height: 60px;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Footer.css';  // Importing the CSS for the footer
+import '../css/Footer.css';  // Importing the CSS for the footer
 
 export default class Footer extends Component {
   render() {
